@@ -1,0 +1,429 @@
+.status-badge .badge{
+    --bs-badge-padding-x: 0.5em;
+    --bs-badge-padding-y: 0.50em;
+    --bs-badge-color: #000;
+}
+
+
+
+
+
+/* ---------------------------------------------------------
+top up page
+---------------------------------------------------------- */
+.amount-input input{
+    border: 1px solid #020085;
+}
+
+[data-layout-mode=dark].amount-input .form-control {
+    color: #fff;
+}
+
+.span-font-size{
+    font-size: 18px;
+}
+
+.ml-20{
+    margin-left:20px;
+}
+
+/* change TopUp p2p tranfer pharagraph color */
+[data-layout-mode=dark] .alert-outline {
+  background-color: var(--bs-card-bg);
+  color: white;
+}
+
+/* ---------------------------------------------------------
+kyc verification page
+---------------------------------------------------------- */
+
+.required-color{
+    color:rgb(255, 0, 0);
+}
+
+.radio-custom{
+    display: flex;
+}
+
+.radio-custom .form-check{
+    margin-right: 20px;
+}
+
+
+.payment-btn button{
+    padding: 15px;
+}
+
+/* @media only screen and (min-width: 1200px) {
+    .rewards{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: 20%!important;
+    }
+} */
+
+.wallet {
+    height: 150px;
+}
+
+
+.wallet a button{
+  z-index: 9;
+}
+
+.add-buuton-center{
+  text-align: center;
+  margin: 21px;
+}
+
+.bv-rewards-heder {
+  font-size: 20px;
+}
+
+.network_gas_fee{
+    position: absolute;
+    opacity: 0;
+}
+
+
+.wallet_available_blance{
+    font-size:18px;
+    font-weight:bold;
+}
+
+/* kyc verification details */
+
+.kyc-details .pricing-badge .badge {
+    font-size: 15px;
+    color: #ffffff;
+    background: #009e47;
+    right: -59px;
+    top: 24px
+}
+
+.doc_type i{
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 10px;
+    color: #009e47;
+}
+
+
+/* ---------------------------------------------------------
+term and condition page
+---------------------------------------------------------- */
+/* Client Summary */
+.summary-text{
+    color:#5156be;
+}
+
+.summary-text2{
+    color:#5f0401;
+}
+
+.row{
+  text-align: justify;
+}
+
+.summary-card{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.summary-card h5{
+    margin-right: 10px;
+    text-align: center;
+}
+
+  @media only screen and (max-width: 768px) {
+    .summary-tab{
+        border: 1px solid #5156be!important;
+        margin: 7px 2px;
+      }
+  }
+
+
+.table-custom-padding >:not(caption)>*>* {
+    padding: 0.4rem 0.4rem;
+}
+
+/* pending approval view */
+
+.pending-appraval{
+    width: 500px;
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.rigth-aligment {
+    text-align : right;
+  }
+
+@media only screen and (max-width: 600px) {
+    .pending-appraval{
+        width: 100%;
+    }
+}
+
+/*
+  |--------------------------------------------------------------------------
+  | Start loader custom style
+  |--------------------------------------------------------------------------
+  */
+  body>.loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #0000002e;
+    z-index: 9999;
+    height: 100vh;
+  }
+
+  body>.loader-wrapper>svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  /* siderbar social icon */
+    #sidebar_email_icon{
+    display: none;
+    }
+
+    #sidebar_email_icon.has-icon{
+    display: block;
+   }
+
+   #sidebar_email{
+    display: block;
+    }
+
+    #sidebar_email.remove-email-text{
+    display: none;
+   }
+
+    .sidebar-social .card-body{
+    padding: 15px;
+    }
+
+    .sidebar-social i.fa-envelope{
+    border: 1px solid #EB4134;
+    color: #EB4134 !important;
+    border-radius: 25%;
+    padding: 10px;
+    margin:5px 1px;
+    }
+
+    .sidebar-social i.fa-envelope:hover{
+    background:#EB4134;
+    color: #ffffff !important;
+    }
+
+  .sidebar-social i.fa-facebook-f{
+    border: 1px solid #4867AA;
+    color: #4867AA !important;
+    border-radius: 25%;
+    padding: 12px;
+    margin:5px 1px;
+  }
+
+  .sidebar-social i.fa-whatsapp{
+    border: 1px solid #1AD03F;
+    color: #1AD03F !important;
+    border-radius: 25%;
+    padding: 12px;
+    margin:5px 1px;
+  }
+
+  .sidebar-social i.fa-telegram-plane{
+    border: 1px solid #34ACDE;
+    color: #34ACDE !important;
+    border-radius: 25%;
+    padding: 12px;
+    margin:5px 1px;
+  }
+
+  .sidebar-social i.fa-twitter{
+    border: 1px solid #1DA1F2;
+    color: #1DA1F2 !important;
+    border-radius: 25%;
+    padding: 12px;
+    margin:5px 1px;
+  }
+
+  .sidebar-social i.fa-facebook-f:hover{
+    background:#4867AA;
+    color: #ffffff !important;
+  }
+
+  .sidebar-social i.fa-whatsapp:hover{
+    background:#1AD03F;
+    color: #ffffff !important;
+  }
+
+  .sidebar-social i.fa-telegram-plane:hover{
+    background:#34ACDE;
+    color: #ffffff !important;
+  }
+
+  .sidebar-social i.fa-twitter:hover{
+    background:#1DA1F2;
+    color: #ffffff !important;
+  }
+
+
+  /* @media only screen and (min-width: 1024px) {
+    .custom-responsive .dataTables_scrollHeadInner{
+        width: 100%!important;
+      }
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
